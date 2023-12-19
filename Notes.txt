@@ -20,6 +20,8 @@ Purpose: End-to-End testing helps validate the overall functionality, performanc
 
 Additionally, there are other types of testing, such as regression testing, system testing, performance testing, and security testing, each serving specific purposes in the software development life cycle.
 
+****Testing the js.****
+
 testing libraries: Jest, vitest ,react testing library, enzyme, Mocha, jasmine, story book, cypress, playwright
 
 syntax:  describe() , it(), test()
@@ -34,3 +36,4 @@ npm run test : to run the test case
 
 The case when api fetch not working (timeout) then we can use mswjs(mock service worker)
 link :: https://mswjs.io/
+
