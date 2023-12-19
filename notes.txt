@@ -1,0 +1,36 @@
+Testing
+
+There are many types of testing in the field of software development, but here are three fundamental categories:
+
+Unit Testing:(test a unit/block of code)
+
+Definition: Unit testing involves testing individual units or components of a software application in isolation. A "unit" is the smallest testable part of an application, such as a function or method.
+Purpose: The main goal is to validate that each unit of the software performs as designed. It helps identify and fix bugs at an early stage in the development process.
+
+Integration Testing:(testing with a combination of components)
+
+Definition: Integration testing focuses on verifying the interactions between different components or systems when they are integrated. It ensures that the units, when combined, function correctly as a whole.
+Purpose: Integration testing helps identify issues that may arise from the interactions between different parts of the system. It aims to detect defects in the interfaces and interactions between components.
+
+End-to-End Testing:(testing visually just like how the user interacts)
+
+Definition: End-to-End (E2E) testing involves testing the complete flow of an application from start to finish, simulating real user scenarios. It checks the system as a whole to ensure that all components work together as intended.
+Purpose: End-to-End testing helps validate the overall functionality, performance, and reliability of a software application from the user's perspective. It is often used to ensure that critical business processes work as expected.
+
+
+Additionally, there are other types of testing, such as regression testing, system testing, performance testing, and security testing, each serving specific purposes in the software development life cycle.
+
+testing libraries: Jest, vitest ,react testing library, enzyme, Mocha, jasmine, story book, cypress, playwright
+
+syntax:  describe() , it(), test()
+
+Here we using vitest library.
+
+commands::  
+npm create vite@latest
+npm i vitest -D
+npm run dev : to run the aplication
+npm run test : to run the test case
+
+The case when api fetch not working (timeout) then we can use mswjs(mock service worker)
+link :: https://mswjs.io/
