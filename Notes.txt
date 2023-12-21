@@ -34,6 +34,8 @@ npm i vitest -D
 npm run dev : to run the aplication
 npm run test : to run the test case
 
+mainly we tests - functions ,variables , arrays, api and objects.
+
 The case when api fetch not working (timeout) then we can use mswjs(mock service worker)
 link :: https://mswjs.io/
 
